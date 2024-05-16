@@ -1,0 +1,11 @@
+final RegExp kEmailRegex = RegExp(r"^[a-zA-Z0-9.a-zA-Z0-9._]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$");
+final RegExp kNameRegex = RegExp(r'^[a-zA-Z\s]{2,}$');
+final RegExp kPasswordRegex = RegExp(r'^.{6,}$');
+final RegExp kStayTimeRegex = RegExp(r'^\d{1,3}$');
+final RegExp kDigitsRegex = RegExp(r'^\d+$');
+final RegExp kPassportNumRegex = RegExp(r'^[A-Z0-9]{6,}$');
+final RegExp kStrongPasswordRegex = RegExp(r"^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{6,}$");
+final RegExp kNonBlankRegex = RegExp(r'^.{2,}$');
+final RegExp kStringRegex = RegExp(r'^[a-zA-Z]{1,}$');
+final RegExp kIdNumberRegex = RegExp(r'^[a-zA-Z0-9]{6,}$');
+final RegExp kPhoneNumberRegex = RegExp(r'^8[2-7]\d{7}$');
